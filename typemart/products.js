@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const products = [
     {
         name: 'fanny pack',
@@ -25,5 +27,4 @@ const products = [
         preOrder: 'true',
     },
 ];
-
-export default products;
+exports.default = products;
